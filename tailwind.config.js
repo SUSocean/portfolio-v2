@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        'open-menu': {
+          '0%': { transform: 'scaleX(0)' },
+          '100%': { transform: 'scaleX(1)' }
+        }
+      },
+      animation: {
+        'open-menu': 'open-menu 0.2s ease-out forwards'
+      }
+    },
   },
   plugins: [],
 }
