@@ -4,7 +4,12 @@ import { faSquare } from '@fortawesome/free-solid-svg-icons'
 const About = () => {
     return (
         <section id="about" className="min-h-screen mx-auto w-5/6 max-w-5xl scroll-mt-24">
-            <h3 className="text-slate-400 text-2xl font-semibold mb-20 sm:4xl">About Me</h3>
+            <div className='flex place-items-center gap-5 mb-20'>
+                <h3 className="text-slate-200 text-2xl font-semibold sm:4xl">About Me</h3>
+                <span className='w-72 h-0.5 bg-slate-600 sm:w-96'></span>
+            </div>
+
+
             <div className='flex flex-col gap-7 lg:flex-row lg:justify-between'>
                 <div className='mb-16 lg:w-3/6'>
                     <article className="mb-6 text-slate-400 text-xl tracking-normal leading-8 sm:2xl sm:leading-9 sm:tracking-wider">
@@ -25,7 +30,7 @@ const About = () => {
 
                     </div>
                 </div>
-                <img src="" alt="Denis Igonin picture" className='w-3/5 h-96 place-self-center outline outline-1 outline-white lg:w-2/6' />
+                <img src="./images/Villisika_2.jpg" alt="Denis Igonin picture" className='w-3/5 max-w-xs h-96 object-cover rounded-md place-self-center lg:w-2/6 lg:place-self-start' />
             </div>
         </section>
     )
