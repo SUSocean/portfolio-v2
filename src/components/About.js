@@ -30,7 +30,10 @@ const About = () => {
 
                     </div>
                 </div>
-                <img src="./images/Villisika_2.jpg" alt="Denis Igonin picture" className='w-3/5 max-w-xs h-96 object-cover rounded-md place-self-center lg:w-2/6 lg:place-self-start' />
+                <div className='w-3/5 max-w-xs h-96 place-self-center lg:w-2/6 lg:place-self-start relative'>
+                    <div className='absolute w-full h-full bg-cyan-300 opacity-60 z-10 transition-all duration-300 hover:opacity-0'></div>
+                    <img src="./images/Villisika_2.jpg" alt="Denis Igonin picture" className="w-full h-full object-cover rounded-md" />
+                </div>
             </div>
         </section>
     )
