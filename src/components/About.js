@@ -25,7 +25,7 @@ const About = () => {
                         <div>
                             <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Redux</span></div>
                             <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Tailwind</span></div>
-                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>HTML/CSS</span></div>
+                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Unit Testing</span></div>
                         </div>
 
                     </div>
