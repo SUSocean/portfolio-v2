@@ -1367,6 +1367,11 @@ video {
     line-height: 1;
   }
 
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .sm\:leading-9 {
     line-height: 2.25rem;
   }
