@@ -5,6 +5,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import MediaLinks from './components/MediaLinks';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <MediaLinks />
     </>
   );
 }
