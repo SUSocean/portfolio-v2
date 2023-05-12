@@ -1,8 +1,11 @@
+import { useState } from 'react'
+import SingleNWProject from './SingleNWProject'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 const Work = () => {
+    const [showMore, setShowMore] = useState(false)
     return (
         <section id="work" className="pb-20 mx-auto w-5/6 max-w-5xl scroll-mt-24">
             <div className='flex place-items-center gap-5 mb-20'>
@@ -48,15 +51,53 @@ const Work = () => {
                 </div>
                 <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/Villisika_2.jpg" alt="watchlist" />
             </div>
+            {/* other */}
+            <h3 className="text-slate-200 text-2xl mb-20 font-semibold sm:4xl text-center">Other Noteworthy Projects</h3>
 
-            <h3 className="text-slate-200 text-2xl font-semibold sm:4xl text-center">Other Noteworthy Projects</h3>
-            <div>
-                <h4>WatchList</h4>
-                <article>
-                    A web site where you can search for movies, read information
-                    about them and save to your watchlist for later.
-                </article>
+            <div className='flex place-items-center flex-col text-slate-300'>
+                <div className='lg:flex lg:gap-5'>
+                    <SingleNWProject
+                        title='WatchList'
+                        description='A web site where you can search for movies, read information
+                        about them and save to your watchlist for later.'
+                        codeLink='#'
+                        SiteLink='#' />
+                    <SingleNWProject
+                        title='WatchList'
+                        description='A web site where you can search for movies, read information
+                        about them and save to your watchlist for later.'
+                        codeLink='#'
+                        SiteLink='#' />
+                    <SingleNWProject
+                        title='WatchList'
+                        description='A web site where you can search for movies, read information
+                        about them and save to your watchlist for later.'
+                        codeLink='#'
+                        SiteLink='#' />
+                </div>
+                <div className={`transition-all duration-300 lg:gap-5 ${showMore ? 'block lg:flex' : 'hidden'}`}>
+                    <SingleNWProject
+                        title='WatchList'
+                        description='A web site where you can search for movies, read information
+                        about them and save to your watchlist for later.'
+                        codeLink='#'
+                        SiteLink='#' />
+                    <SingleNWProject
+                        title='WatchList'
+                        description='A web site where you can search for movies, read information
+                        about them and save to your watchlist for later.'
+                        codeLink='#'
+                        SiteLink='#' />
+                    <SingleNWProject
+                        title='WatchList'
+                        description='A web site where you can search for movies, read information
+                        about them and save to your watchlist for later.'
+                        codeLink='#'
+                        SiteLink='#' />
+                </div>
             </div>
+
+            <button className='border-2 border-cyan-300 px-7 block mx-auto py-2 rounded-md text-cyan-300 cursor-pointer relative hover:-translate-x-1 hover:-translate-y-1 hover:border-r-4 hover:border-b-4 transition-all duration-200' onClick={() => setShowMore(prevState => !prevState)}>{showMore ? 'Show Less' : 'Show More'}</button>
         </section>
     )
 }

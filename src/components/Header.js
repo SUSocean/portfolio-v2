@@ -35,7 +35,7 @@ export const Header = () => {
                 <ul className="h-24 hidden justify-end items-center relative text-slate-200 text-xl md:flex">
                     <a href="#about"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">About</li></a>
                     <a href="#work"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Work</li></a>
-                    <a href="#"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Contact</li></a>
+                    <a href="#contact"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Contact</li></a>
                     <a className="absolute right-0" href='#'>
                         <li className=" border-2 border-cyan-300 px-5 py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 hover:border-r-4 hover:border-b-4 transition-all duration-200 z-10">
                             Resume
@@ -57,7 +57,7 @@ export const Header = () => {
                 <ul className="h-full flex flex-col justify-center items-center gap-10 text-slate-200 text-3xl" >
                     <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#about" onClick={handleClick}>About</a></li>
                     <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#work" onClick={handleClick}>Work</a></li>
-                    <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#" onClick={handleClick}>Contact</a></li>
+                    <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#contact" onClick={handleClick}>Contact</a></li>
                     <li className="group border-2 border-cyan-300 px-5 py-2 rounded-md text-cyan-300 cursor-pointer relative hover:-translate-x-1 hover:-translate-y-1 hover:border-r-4 hover:border-b-4 transition-all duration-200">
                         <a href='#' onClick={handleClick}>Resume</a>
                     </li>
