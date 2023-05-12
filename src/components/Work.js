@@ -64,29 +64,26 @@ const Work = () => {
                         SiteLink='https://denis-i-color-picker.netlify.app/' />
                     <SingleNWProject
                         title={`Jimm's Dinner`}
-                        description='The website is delivery-app mock where users can select food to be delivered and proceed with with the payment.'
+                        description='The website is delivery-app mock where users can select food and proceed with the payment.'
                         codeLink={`https://github.com/SUSocean/Jimmy-s-Dinner/tree/main/Jimmy's%20Dinner`}
                         SiteLink='https://denis-igonin-dinner-project.netlify.app/' />
                 </div>
                 <div className={`transition-all duration-300 lg:gap-5 ${showMore ? 'block lg:flex' : 'hidden'}`}>
                     <SingleNWProject
-                        title='WatchList'
-                        description='A web site where you can search for movies, read information
-                        about them and save to your watchlist for later.'
-                        codeLink='#'
-                        SiteLink='#' />
+                        title='Dog Tinder'
+                        description={`The website is a clone of a Tinder's feed page but with dogs. Writen using Java Script classes.`}
+                        codeLink='https://github.com/SUSocean/dog-tinder/tree/main/dogTinder'
+                        SiteLink='https://denis-igonin-dogtinder-project.netlify.app/' />
                     <SingleNWProject
-                        title='WatchList'
-                        description='A web site where you can search for movies, read information
-                        about them and save to your watchlist for later.'
-                        codeLink='#'
-                        SiteLink='#' />
+                        title='My Previous Portfolio'
+                        description='My previous portfolio fitures my old projects and not updated projects. Built with React.'
+                        codeLink='https://github.com/SUSocean/portfolio'
+                        SiteLink='https://denis-i-portfolio.netlify.app/' />
                     <SingleNWProject
-                        title='WatchList'
-                        description='A web site where you can search for movies, read information
-                        about them and save to your watchlist for later.'
-                        codeLink='#'
-                        SiteLink='#' />
+                        title='Toy Store'
+                        description='A website is a mock of a main page of a toy store.'
+                        codeLink='https://github.com/SUSocean/toys/tree/main/toys%20website'
+                        SiteLink='https://denis-igonin-toys-project.netlify.app/' />
                 </div>
             </div>
 

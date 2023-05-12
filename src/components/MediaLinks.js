@@ -21,9 +21,9 @@ const MediaLinks = () => {
                 <div className="w-0.5 h-60 bg-slate-600 mx-auto"></div>
             </div>
 
-            <div className="fixed -right-5 hidden bottom-32  flex-col place-items-center lg:flex">
+            <div className="fixed -right-5 hidden bottom-28  flex-col place-items-center lg:flex">
                 <a href="mailto:igonind.a1@gmail.com" className="text-slate-400 hover:text-cyan-300 rotate-90 inline-block mb-20">igonind.a1@gmail.com</a>
-                <div className="h-32 w-0.5 bg-slate-600"></div>
+                <div className="h-36 w-0.5 bg-slate-600"></div>
             </div>
         </>
     )
