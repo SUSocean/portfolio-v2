@@ -97,7 +97,12 @@ const Work = () => {
                 </div>
             </div>
 
-            <button className='border-2 border-cyan-300 px-7 block mx-auto py-2 rounded-md text-cyan-300 cursor-pointer relative hover:-translate-x-1 hover:-translate-y-1 hover:border-r-4 hover:border-b-4 transition-all duration-200' onClick={() => setShowMore(prevState => !prevState)}>{showMore ? 'Show Less' : 'Show More'}</button>
+            <div className='relative z-20 mx-auto w-min h-min'>
+                <button className='z-10 border-2 bg-slate-900 border-cyan-300 px-7 w-36 h-11  block mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200' onClick={() => setShowMore(prevState => !prevState)}>
+                    {showMore ? 'Show Less' : 'Show More'}
+                </button>
+                <span className='rounded-md absolute top-0 left-0 w-full h-full bg-cyan-300 -z-10'>{showMore ? 'Show Less' : 'Show More'}</span>
+            </div>
         </section>
     )
 }

@@ -36,13 +36,11 @@ export const Header = () => {
                     <a href="#about"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">About</li></a>
                     <a href="#work"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Work</li></a>
                     <a href="#contact"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Contact</li></a>
-                    <a className="absolute right-0" href='#'>
-                        <li className=" border-2 border-cyan-300 px-5 py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 hover:border-r-4 hover:border-b-4 transition-all duration-200 z-10">
+                    <li className='relative z-20 mx-auto w-min h-min'>
+                        <a className='z-10 flex justify-center place-items-center border-2 bg-slate-900 border-cyan-300 px-7 w-36 h-11 mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'>
                             Resume
-                        </li>
-                    </a>
-                    <li className=" border-2 border-cyan-300 px-5 py-2 rounded-md text-cyan-300 cursor-pointer -translate-x-1 -translate-y-1 border-r-4 hover:border-b-4 transition-all duration-200 opacity-0 -z-10">
-                        <a href='#'>Resume</a>
+                        </a>
+                        <span className='rounded-md absolute top-0 left-0 w-full h-full bg-cyan-300 -z-10'></span>
                     </li>
 
                 </ul>
@@ -58,8 +56,11 @@ export const Header = () => {
                     <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#about" onClick={handleClick}>About</a></li>
                     <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#work" onClick={handleClick}>Work</a></li>
                     <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#contact" onClick={handleClick}>Contact</a></li>
-                    <li className="group border-2 border-cyan-300 px-5 py-2 rounded-md text-cyan-300 cursor-pointer relative hover:-translate-x-1 hover:-translate-y-1 hover:border-r-4 hover:border-b-4 transition-all duration-200">
-                        <a href='#' onClick={handleClick}>Resume</a>
+                    <li onClick={handleClick} className='relative z-20 mx-auto w-min h-min'>
+                        <a className='z-10 flex justify-center place-items-center border-2 bg-slate-800 border-cyan-300 px-7 w-40 h-14 mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'>
+                            Resume
+                        </a>
+                        <span className='rounded-md absolute top-0 left-0 w-full h-full bg-cyan-300 -z-10'></span>
                     </li>
 
                 </ul>
