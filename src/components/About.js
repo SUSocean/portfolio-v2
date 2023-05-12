@@ -3,7 +3,7 @@ import { faSquare } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
     return (
-        <section id="about" className="mb-32 mx-auto w-5/6 max-w-5xl scroll-mt-24">
+        <section id="about" className="mb-32 mx-auto min-h-screen w-5/6 max-w-5xl scroll-mt-24">
             <div className='flex place-items-center gap-5 mb-20'>
                 <h3 className="text-slate-200 text-2xl font-semibold sm:text-4xl">About Me</h3>
                 <span className='w-72 h-0.5 bg-slate-600 sm:w-96'></span>
