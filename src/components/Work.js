@@ -53,6 +53,11 @@ const Work = () => {
             <div className='flex place-items-center flex-col text-slate-300'>
                 <div className='lg:flex lg:gap-5'>
                     <SingleNWProject
+                        title='My Previous Portfolio'
+                        description='My previous portfolio fitures my old projects and not updated projects. Built with React.'
+                        codeLink='https://github.com/SUSocean/portfolio'
+                        SiteLink='https://denis-i-portfolio.netlify.app/' />
+                    <SingleNWProject
                         title='Sedona'
                         description='The hotel website, constructed using HTML/CSS and JavaScript, contains a range of options that enable users to effortlessly select the ideal hotel for their needs.'
                         codeLink='https://github.com/SUSocean/sedona'
@@ -62,23 +67,18 @@ const Work = () => {
                         description='The website is a color scheme generator. Users can browse through color palettes, customize them to their liking, and save the hex codes for future reference.'
                         codeLink='https://github.com/SUSocean/color-scheme-generator'
                         SiteLink='https://denis-i-color-picker.netlify.app/' />
-                    <SingleNWProject
-                        title={`Jimm's Dinner`}
-                        description='The website is delivery-app mock where users can select food and proceed with the payment.'
-                        codeLink={`https://github.com/SUSocean/Jimmy-s-Dinner/tree/main/Jimmy's%20Dinner`}
-                        SiteLink='https://denis-igonin-dinner-project.netlify.app/' />
                 </div>
-                <div className={`transition-all duration-300 lg:gap-5 ${showMore ? 'block lg:flex' : 'hidden'}`}>
+                <div className={`transition-all origin-top animate-open-nav duration-300 lg:gap-5 ${showMore ? 'block lg:flex' : 'hidden'}`}>
                     <SingleNWProject
                         title='Dog Tinder'
                         description={`The website is a clone of a Tinder's feed page but with dogs. Writen using Java Script classes.`}
                         codeLink='https://github.com/SUSocean/dog-tinder/tree/main/dogTinder'
                         SiteLink='https://denis-igonin-dogtinder-project.netlify.app/' />
                     <SingleNWProject
-                        title='My Previous Portfolio'
-                        description='My previous portfolio fitures my old projects and not updated projects. Built with React.'
-                        codeLink='https://github.com/SUSocean/portfolio'
-                        SiteLink='https://denis-i-portfolio.netlify.app/' />
+                        title={`Jimm's Dinner`}
+                        description='The website is delivery-app mock where users can select food and proceed with the payment.'
+                        codeLink={`https://github.com/SUSocean/Jimmy-s-Dinner/tree/main/Jimmy's%20Dinner`}
+                        SiteLink='https://denis-igonin-dinner-project.netlify.app/' />
                     <SingleNWProject
                         title='Toy Store'
                         description='A website is a mock of a main page of a toy store.'
