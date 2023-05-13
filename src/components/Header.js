@@ -38,7 +38,7 @@ export const Header = () => {
                     <a href="#work"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Work</li></a>
                     <a href="#contact"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Contact</li></a>
                     <li className='relative z-20 mx-auto w-min h-min'>
-                        <Link target="_blank" to='/resume' className='z-10 flex justify-center place-items-center border-2 bg-slate-900 border-cyan-300 px-7 w-36 h-11 mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'>
+                        <Link to='/resume' className='z-10 flex justify-center place-items-center border-2 bg-slate-900 border-cyan-300 px-7 w-36 h-11 mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'>
                             Resume
                         </Link>
                         <span className='rounded-md absolute top-0 left-0 w-full h-full bg-cyan-300 -z-10'></span>
@@ -58,7 +58,7 @@ export const Header = () => {
                     <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#work" onClick={handleClick}>Work</a></li>
                     <li className="p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300"><a href="#contact" onClick={handleClick}>Contact</a></li>
                     <li onClick={handleClick} className='relative z-20 mx-auto w-min h-min'>
-                        <Link to='/resume' target="_blank" className='z-10 flex justify-center place-items-center border-2 bg-slate-800 border-cyan-300 px-7 w-40 h-14 mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'>
+                        <Link to='/resume' className='z-10 flex justify-center place-items-center border-2 bg-slate-800 border-cyan-300 px-7 w-40 h-14 mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'>
                             Resume
                         </Link>
                         <span className='rounded-md absolute top-0 left-0 w-full h-full bg-cyan-300 -z-10'></span>
