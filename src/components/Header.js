@@ -9,19 +9,19 @@ export const Header = () => {
         setMenuOpen(prevState => !prevState)
     }
 
-    const handleScrol = () => {
-        if (typeof window !== 'undefined') {
-            if (window.scrollY < prevPos) {
-                setScrolledDown(false)
-            } else {
-                setScrolledDown(true)
-            }
-
-            setPrevPos(window.scrollY)
-        }
-    }
 
     useEffect(() => {
+        const handleScrol = () => {
+            if (typeof window !== 'undefined') {
+                if (window.scrollY < prevPos) {
+                    setScrolledDown(false)
+                } else {
+                    setScrolledDown(true)
+                }
+
+                setPrevPos(window.scrollY)
+            }
+        }
         if (typeof window !== 'undefined') {
             window.addEventListener('scroll', handleScrol)
             return () => {
