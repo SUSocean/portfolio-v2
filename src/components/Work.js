@@ -14,6 +14,30 @@ const Work = () => {
             </div>
             {/* main */}
             <div className='relative z-20 mb-20'>
+                <h4 className="text-slate-300 text-2xl mb-5 font-semibold pl-8 pt-5 lg:p-0">Diviamed</h4>
+                <article className="p-5 mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider lg:w-1/2 lg:bg-slate-600">
+                    The website for the one-stop ukranian medical tourism agency!
+                </article>
+                <div className="pl-8 pb-5 text-slate-400 flex gap-5 lg:pl-0 ">
+                    <a target='_black' className='hover:text-cyan-300' href="https://diviamed.com/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                </div>
+                <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/diviamed.png" alt="watchlist" />
+            </div>
+
+            <div className='relative z-20 mb-20'>
+                <h4 className="text-slate-300 text-2xl mb-5 font-semibold pl-8 pt-5 lg:p-0">Bear Game</h4>
+                <article className="p-5 mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider lg:w-1/2 lg:bg-slate-600">
+                    Guide the bear along the correct path by typing words that match the directions on the screen. Avoid wasps and gain points along the way.
+                </article>
+                <div className="pl-8 pb-5 text-slate-400 flex gap-5 lg:pl-0 ">
+                    <a target='_black' className='hover:text-cyan-300' href="https://github.com/SUSocean/Bear_game"><FontAwesomeIcon icon={faCode} /></a>
+                    <a target='_black' className='hover:text-cyan-300' href="https://di-bear-game.netlify.app/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                </div>
+                <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/bear_game.png" alt="watchlist" />
+            </div>
+
+
+            <div className='relative z-20 mb-20'>
                 <h4 className="text-slate-300 text-2xl mb-5 font-semibold pl-8 pt-5 lg:p-0">WatchList</h4>
                 <article className="p-5 mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider lg:w-1/2 lg:bg-slate-600">
                     The website is a movie database platform that allows users to search and browse for their favorite movies, read information about them, and save them for later. By leveraging an API, the platform provides users with comprehensive and up-to-date information on movies, including ratings, posters, description and more. Built using React and Redux, the website offers a seamless user experience with a responsive and intuitive interface.
@@ -24,6 +48,7 @@ const Work = () => {
                 </div>
                 <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/watchlist.png" alt="watchlist" />
             </div>
+
             <div className='relative z-20 mb-20'>
                 <h4 className="text-slate-300 text-2xl mb-5 font-semibold pl-8 pt-5 lg:p-0 lg:text-right lg:ml-auto">Quizzical</h4>
                 <article className="lg:ml-auto p-5 mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider lg:w-1/2 lg:bg-slate-600">
@@ -35,6 +60,7 @@ const Work = () => {
                 </div>
                 <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:left-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/quizzical.png" alt="watchlist" />
             </div>
+
             <div className='relative z-20 pb-10 mb-32'>
                 <h4 className="text-slate-300 text-2xl mb-5 font-semibold pl-8 pt-5 lg:p-0">Focus Screen</h4>
                 <article className="p-5 mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider lg:w-1/2 lg:bg-slate-600">
@@ -46,6 +72,7 @@ const Work = () => {
                 </div>
                 <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/focusScreen.png" alt="watchlist" />
             </div>
+
             {/* other */}
             <h3 className="text-slate-200 text-2xl mb-20 font-semibold sm:text-4xl text-center">Other Noteworthy Projects</h3>
 

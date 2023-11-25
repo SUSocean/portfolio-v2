@@ -18,21 +18,21 @@ const About = () => {
                     <p className="text-slate-400 text-xl tracking-normal leading-8 mb-5 sm:text-2xl sm:leading-9 sm:tracking-wider">Here are a few technologies I have been working with recently:</p>
                     <div className='flex gap-10'>
                         <div>
-                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>{`JavaScript(ES6+)`}</span></div>
+                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>JavaScript(ES6+)</span></div>
                             <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>React</span></div>
-                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Third Party API</span></div>
+                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Wordpress</span></div>
                         </div>
                         <div>
                             <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Redux</span></div>
-                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Tailwind</span></div>
-                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Unit Testing</span></div>
+                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>TypeScript</span></div>
+                            <div className='flex place-items-center gap-3'><FontAwesomeIcon icon={faSquare} className='text-cyan-300 text-sm' /> <span className='text-slate-400'>Webflow</span></div>
                         </div>
 
                     </div>
                 </div>
                 <div className='w-3/5 max-w-xs h-96 place-self-center lg:w-2/6 lg:place-self-start relative'>
                     <div className="absolute rounded-md w-full h-full bg-cyan-300 opacity-60 z-10 transition-all duration-300 hover:bg-opacity-0 border-cyan-300"></div>
-                    <img src="./images/me.png" alt="Denis Igonin" className="w-full h-full object-cover rounded-md" />
+                    <img src="./images/me.jpg" alt="Denis Igonin" className="w-full h-full object-cover rounded-md" />
                 </div>
             </div>
         </section>
