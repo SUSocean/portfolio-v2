@@ -16,12 +16,23 @@ const Work = () => {
             <div className='relative z-20 mb-20'>
                 <h4 className="text-slate-300 text-2xl mb-5 font-semibold pl-8 pt-5 lg:p-0">Diviamed</h4>
                 <article className="p-5 mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider lg:w-1/2 lg:bg-slate-600">
-                    The website for the one-stop ukranian medical tourism agency!
+                    The website for the one-stop ukranian medical tourism agency. This multipage website features various dynamic fields, a map, accepts feedback, and many more.
                 </article>
                 <div className="pl-8 pb-5 text-slate-400 flex gap-5 lg:pl-0 ">
                     <a target='_black' className='hover:text-cyan-300' href="https://diviamed.com/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                 </div>
                 <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/diviamed.png" alt="watchlist" />
+            </div>
+
+            <div className='relative z-20 mb-20'>
+                <h4 className="text-slate-300 text-2xl mb-5 font-semibold pl-8 pt-5 lg:p-0">KONKRETUM</h4>
+                <article className="p-5 mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider lg:w-1/2 lg:bg-slate-600">
+                A website for a concrete-producing company. This multipage website features various sliders, a map, accepts feedback, and many more.  
+                </article>
+                <div className="pl-8 pb-5 text-slate-400 flex gap-5 lg:pl-0 ">
+                    <a target='_black' className='hover:text-cyan-300' href="https://diviamed.com/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                </div>
+                <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/beton.png" alt="watchlist" />
             </div>
 
             <div className='relative z-20 mb-20'>

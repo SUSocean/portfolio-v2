@@ -35,7 +35,7 @@ export const Header = () => {
             <nav aria-label="main" className="max-w-xl h-24 ml-auto mr-14">
                 <ul className="h-24 hidden justify-end items-center relative text-slate-200 text-xl md:flex">
                     <a href="#about"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">About</li></a>
-                    <a href="#work"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Work</li></a>
+                    <a href="#experience"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Work</li></a>
                     <a href="#contact"><li className="mr-16 p-2 cursor-pointer hover:text-cyan-300 transition-all duration-300">Contact</li></a>
                     <li className='relative z-20 mx-auto w-min h-min'>
                         <Link to='/resume' className='z-10 flex justify-center place-items-center border-2 bg-slate-900 border-cyan-300 px-7 w-36 h-11 mx-auto py-2 rounded-md text-cyan-300 cursor-pointer hover:-translate-x-1 hover:-translate-y-1 transition-all duration-200'>
