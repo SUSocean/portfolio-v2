@@ -30,7 +30,7 @@ const Work = () => {
                 A website for a concrete-producing company. This multipage website features various sliders, a map, accepts feedback, and many more.  
                 </article>
                 <div className="pl-8 pb-5 text-slate-400 flex gap-5 lg:pl-0 ">
-                    <a target='_black' className='hover:text-cyan-300' href="https://diviamed.com/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                    <a target='_black' className='hover:text-cyan-300' href="https://www.konkretum.ru/"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                 </div>
                 <img className='absolute top-0 -z-10 w-full h-full object-cover rounded-md opacity-10 lg:w-3/5 lg:right-0 lg:opacity-40 lg:hover:opacity-100 transition-all duration-500' src="./images/beton.png" alt="watchlist" />
             </div>
