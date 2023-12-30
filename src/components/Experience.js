@@ -14,8 +14,8 @@ const Experience = () => {
                             MAY 2023 - present
                         </div>
                         <div>
-                            <h4 className="text-slate-300 text-2xl mb-5 font-semibold pt-5  inline">Wordpress Developer</h4><span className="text-slate-400 pl-2 pr-2 text-1xl mb-5 font-semibold  inline">at</span><h4 className="text-slate-300 text-2xl mb-5 font-semibold pt-5  inline">Svetlana's Web Stutio</h4>
-                            <p className="pt-10 lg:ml-auto mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider">I focus on creating and maintaining websites using WordPress. I create user-friendly websites and make sure they work well. My job involves fixing any issues and coming up with new ideas.</p>
+                            <h4 className="text-slate-300 text-2xl mb-5 font-semibold pt-5  inline">Web Developer</h4><span className="text-slate-400 pl-2 pr-2 text-1xl mb-5 font-semibold  inline">at</span><h4 className="text-slate-300 text-2xl mb-5 font-semibold pt-5  inline">Svetlana's Web Stutio</h4>
+                            <p className="pt-10 lg:ml-auto mb-6 rounded-md w-9/10 text-slate-300 text-xl tracking-normal leading-8 sm:leading-9 sm:tracking-wider">Responsibilities include crafting responsive, user-friendly websites, collaborating closely with design and development teams, and contributing innovative ideas to drive project success.</p>
                         </div>
                     </li>
                 </ul>
